@@ -17,9 +17,19 @@ install Pyaudio module
 $ pip install pyaudio
 ```
 
-Import nltk   Natural Language Toolkit   (stopwords)
+Import ntlk(Natural Language Toolkit)
+https://www.nltk.org/
+
+```sh
+$ import ntlk
+$ ntlk.download
+```
 
 Import numpy  
 
+
 Import pylab
+
+
+UI.png
 ![UI](https://user-images.githubusercontent.com/90267793/145693114-e90dad60-9fc7-4abc-be17-f79d42179b16.png)
