@@ -29,11 +29,11 @@ Import numpy and pylab modules
 
 In Pycharm, go to find:
 
+```sh
 Files-Settings-Project-Python Interpreter
+```
 
-Click "+" ,find "numpy" and "pylab"
-
-Then install the package
+Click "+" ,find "numpy" and "pylab" to install the packages
 
 
 
