@@ -25,10 +25,10 @@ $ import ntlk
 $ ntlk.download()
 ```
 
-Import numpy and pylab modules
-In Pycharm, go to find:
-Files-Settings-Project-Python Interpreter
-Click "+" ,find "numpy" and "pylab"
+Import numpy and pylab modules \n
+In Pycharm, go to find: \n
+Files-Settings-Project-Python Interpreter \n
+Click "+" ,find "numpy" and "pylab" \n
 Then install the package
 
 
