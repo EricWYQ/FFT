@@ -14,15 +14,15 @@ Python
 
 install Pyaudio module
 ```sh
-$ pip install pyaudio
+ pip install pyaudio
 ```
 
 ### Import NTLK(Natural Language Toolkit)
 https://www.nltk.org/
 
 ```sh
-$ import ntlk
-$ ntlk.download()
+ import ntlk
+ ntlk.download()
 ```
 
 ### Import numpy and pylab modules
