@@ -17,7 +17,7 @@ install Pyaudio module
 $ pip install pyaudio
 ```
 
-### Import ntlk(Natural Language Toolkit)
+### Import NTLK(Natural Language Toolkit)
 https://www.nltk.org/
 
 ```sh
