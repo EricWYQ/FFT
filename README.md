@@ -3,7 +3,7 @@
 Module of Python:
 https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio
 
-###Import pyaudio(https://pypi.org/project/PyAudio/)
+### Import pyaudio(https://pypi.org/project/PyAudio/)
 
 You need to check your version of Python first. Use cmd to type:
 ```sh
@@ -16,7 +16,7 @@ install Pyaudio module
 $ pip install pyaudio
 ```
 
-###Import ntlk(Natural Language Toolkit)
+### Import ntlk(Natural Language Toolkit)
 https://www.nltk.org/
 
 ```sh
@@ -24,7 +24,7 @@ $ import ntlk
 $ ntlk.download()
 ```
 
-###Import numpy and pylab modules
+### Import numpy and pylab modules
 
 In Pycharm, go to find:
 
