@@ -6,7 +6,7 @@ https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio
 ### Import pyaudio
 (https://pypi.org/project/PyAudio/)
 
-You need to check your version of Python first. Use cmd to type:
+Check the version of Python first. Use cmd to type:
 ```sh
 Python
 ```
