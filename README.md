@@ -11,7 +11,7 @@ Python
 ```
 ![python -v](https://user-images.githubusercontent.com/90267793/145693138-6a5253f0-6ca7-4b0c-9ba6-52e3b057eacf.png)
 
-install Pyaudio module
+install Pyaudio module(https://pypi.org/project/PyAudio/)
 
 ```sh
 $ pip install pyaudio
