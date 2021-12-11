@@ -34,6 +34,9 @@ Files-Settings-Project-Python Interpreter
 ```
 
 Click "+" ,find "numpy" and "pylab" to install the packages
+![image](https://user-images.githubusercontent.com/90267793/145693405-a017faec-236e-4282-adae-70419ef9e6fe.png)
+
+
 
 
 
