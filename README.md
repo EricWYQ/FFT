@@ -22,13 +22,18 @@ https://www.nltk.org/
 
 ```sh
 $ import ntlk
-$ ntlk.download
+$ ntlk.download()
 ```
 
-Import numpy  
+Import numpy and pylab modules
+In Pycharm, go to find:
+Files-Settings-Project-Python Interpreter
+Click "+" ,find "numpy" and "pylab"
+Then install the package
 
 
-Import pylab
+
+
 
 
 UI.png
