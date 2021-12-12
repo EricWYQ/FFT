@@ -1,7 +1,7 @@
 # Text-to-Speak
 
-Module of Python:
-https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio
+Modules of Python:
+https://www.lfd.uci.edu/~gohlke/pythonlibs/
 
 * ### Import pyaudio
 (https://pypi.org/project/PyAudio/)
