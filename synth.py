@@ -31,11 +31,8 @@ class Utterance:
     def __init__(self, phrase):
         print(f'Making utterance to synthesise phrase: {phrase}')  # just a hint - can be deleted
         stop_words = set(stopwords.words('english'))
-        # words cut
         word_tokens = word_tokenize(phrase)
-
-        # filtered_sentence = [w for w in word_tokens if not w in stop_words]
-        # word_sequence = [w.lower() for w in filtered_sentence]
+        
         word_sequence = [w.lower() for w in word_tokens]
         self.word_sequence = word_sequence
         print("words cut complete..." + str(self.word_sequence))
@@ -68,17 +65,14 @@ class Utterance:
                 tem = ""
                 i += 1
                 j += 1
-        # diphone_seq.append(str(phone_seq_list[-1]).lower())
         diphone_seq.append("{s}-pau".format(s=str(phone_seq_list[-1]).lower()))
         return diphone_seq
 
 
-# NOTE: DO NOT CHANGE ANY OF THE ARGPARSE ARGUMENTS - CHANGE NOTHING IN THIS FUNCTION
 def process_commandline():
     parser = argparse.ArgumentParser(
         description='A basic text-to-speech app that synthesises speech using diphone concatenation.')
 
-    # basic synthesis arguments
     parser.add_argument('--diphones', default="./diphones",
                         help="Folder containing diphone wavs")
     parser.add_argument('--play', '-p', action="store_true", default=False,
