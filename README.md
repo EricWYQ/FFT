@@ -37,5 +37,5 @@ Click "+" ,find "numpy" and "pylab" to install the packages
 ![image](https://user-images.githubusercontent.com/90267793/145693405-a017faec-236e-4282-adae-70419ef9e6fe.png)
 
 
-UI interface
+UI interface \n
 ![UI interface](https://user-images.githubusercontent.com/90267793/145732103-a14a94fa-7238-4b1d-8065-464f40cf03b6.png)
