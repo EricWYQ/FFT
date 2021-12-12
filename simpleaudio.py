@@ -23,10 +23,8 @@ class Audio(pyaudio.PyAudio):
                  rate=RATE,
                  chunk=CHUNK,
                  format=FORMAT):
-        # Initialise the parent class
         pyaudio.PyAudio.__init__(self)
 
-        # Set the format to that specified
         self.chan = channels
         self.rate = rate
         self.chunk = chunk
@@ -81,16 +79,12 @@ class Audio(pyaudio.PyAudio):
         self.ostream = None
 
     def record(self, time=5.0):
-        # Clear current data
         self.data = np.array([], dtype=self.nptype)
-        # Open an inputstream
         self.open_input_stream()
         print("Recording...")
-        # Get time*sample_rate values in total, a chunk at a time
         for i in range(0, int(time * self.rate/self.chunk)):
             self.get_chunk()
         print("Done Recording")
-        # Close the input stream
         self.close_input_stream()
 
     def play(self):
@@ -103,8 +97,7 @@ class Audio(pyaudio.PyAudio):
             except IndexError:
                 break
         
-        sleep(0.4) # hack to work around a bug in some (non-blocking) audio hardware 
-        # Close the output stream
+        sleep(0.4) 
         self.close_output_stream()
 
     def save(self, path):
@@ -139,13 +132,10 @@ class Audio(pyaudio.PyAudio):
             return pyaudio.paInt16
     
     def add_echo(self, repeat, delay):
-        # get the length of the existing data
         length = self.data.shape[0]
-        # create a new array with the required extra length
         array = np.zeros(length + repeat*delay, dtype=np.float)
 
         for i in range(0, repeat+1):
-            # Get start and end times for the current offset
             start = i*delay
             end = length + i*delay
             scale = 2**(i+1)
