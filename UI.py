@@ -5,7 +5,7 @@ import simpleaudio
 import numpy as np
 
 root = Tk()
-root.title("EE629 Text to Speech")
+root.title("EE629 Text to Speak")
 root.geometry('400x400+200+20')
 
 text = Text(root, width=50, height=24)
